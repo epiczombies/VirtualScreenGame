@@ -1,0 +1,37 @@
+Wait
+TurnLeft
+TurnLeft
+Wait
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+Wait
+TurnLeft
+if CheckBomb() goto LABEL_IF_BOMB
+MoveForward // HERE COMES THE BOMB TRIGGER
+MoveForward 
+MoveForward
+MoveForward
+MoveForward
+Wait
+TurnLeft
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+return
+LABEL LABEL_IF_BOMB
+EXPLODE 1
+TurnLeft
+TurnLeft
+MoveForward
+TurnRight
+MoveForward
+MoveForward
+MoveForward
+MoveForward
+MoveForward
